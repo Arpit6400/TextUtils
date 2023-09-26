@@ -13,6 +13,21 @@ export default function TextForm(props) {
         let st=text.toLowerCase();
         setText(st);
     }
+    const handleAlterClick= ()=>{
+        let st=text;
+        let ans="";
+        for(let index=0;index<st.length;index++){
+            let char=st.charAt(index);
+            if(index%2==0){
+                char=char.toUpperCase();
+            }
+            else{
+                char=char.toLowerCase();
+            }
+            ans +=char;
+        }
+        setText(ans);
+    }
     const handleOnChange= (event)=>{
         setText(event.target.value);
     }
@@ -27,6 +42,7 @@ export default function TextForm(props) {
         </div>
         <button className="btn btn-primary mx-2" onClick={handleUPClick} >Convert to Uppercase</button>
         <button className="btn btn-primary mx-2" onClick={handlelowClick} >Convert to Lowercase</button>
+        <button className="btn btn-primary mx-2" onClick={handleAlterClick} >Convert to AlTeRnAtEcAsE</button>
         <button className="btn btn-primary mx-2" onClick={handleClearClick} >Clear</button>
     </div>
     <div className="container my-3">
