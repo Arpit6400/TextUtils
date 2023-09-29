@@ -32,7 +32,7 @@ export default function TextForm(props) {
         let ans="";
         for(let index=0;index<st.length;index++){
             let char=st.charAt(index);
-            if(index%2==0){
+            if(index%2===0){
                 char=char.toUpperCase();
             }
             else{
