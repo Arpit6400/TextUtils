@@ -32,7 +32,7 @@ To get started with TextUtils, simply clone this repository or download the sour
 
 ## Learn More
 
-To learn more about the capabilities of TextUtils or if you want to contribute to its development, check out the [TextUtils GitHub repository](https://github.com/your-repo-link).
+To learn more about the capabilities of TextUtils or if you want to contribute to its development, check out the [TextUtils GitHub repository](https://github.com/Arpit6400/TextUtils).
 
 ## Try It Out
 
